@@ -1,3 +1,4 @@
-*rar
-*pdf
+*.rar
+*.pdf
 .DS_Store
+*.zip
