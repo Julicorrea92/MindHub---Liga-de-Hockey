@@ -1,18 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    font-family: Tahoma, sans-serif;
+    font-family: 'Comic Sans MS', Tahoma, sans-serif;
 }
 
 .titulo{
-    font-size: 30px;
+    margin-top: 3px;
+    height: 550px;
+    width: 100%;
+    background-image: url('assets/design1_image1.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-size:75px;
+    font-weight: 100;
+}
+
+header h2{
+    display: block;
+    margin-top: 3px;
+    border: solid;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
     position: relative;
-    top: 150px;
-    
+    bottom: 145px;
+    left: 1075px;
+}
+
+nav{
+    position: relative;
+    bottom: 150px;
+}
+
+.nav-menu a{
+    display: block;
+    padding: 20px 10px;
+    margin-left: 20px;
     
 }
 
+.section-content{
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+    top:630px;
+    
+}
 
-#banner{
-    width: 100%;
-    margin: 0;
+#contact-text{
+        display: inline;
+        font-size: 18px;
+        position: absolute;
+        left: 200px;
+        top:675px;
+        
+    
+}
 
+.strong-txt{
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.simple-txt{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 50px;
 }
