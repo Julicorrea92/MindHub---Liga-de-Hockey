@@ -23,6 +23,7 @@ h1{
 header h2{
     display: block;
     margin-top: 3px;
+    margin-bottom: 10px;
     border: solid;
     background-color: black;
     color: white;
@@ -32,14 +33,9 @@ header h2{
 
 .logo{
     width: 150px;
-    position: relative;
-    bottom: 145px;
+    position: absolute;
+    top: 469px;
     left: 1075px;
-}
-
-nav{
-    position: relative;
-    bottom: 150px;
 }
 
 .nav-menu a{
@@ -50,30 +46,22 @@ nav{
 }
 
 .section-content{
+    display: block;
     font-size: 18px;
     position: absolute;
     left: 200px;
     top:630px;
-    
 }
 
 #contact-text{
-        display: inline;
-        font-size: 18px;
-        position: absolute;
-        left: 200px;
-        top:675px;
-        
-    
-}
-
-.strong-txt{
-    padding: 5px 10px;
-    margin-left: 20px;
+    display: inline;
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+    top: 650px;
 }
 
 .simple-txt{
-    display: inline;
     margin-top: 10px;
     margin-left: 50px;
 }
