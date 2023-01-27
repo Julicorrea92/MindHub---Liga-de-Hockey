@@ -1,60 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Mighty Ducks Hockey League">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to Mighty Ducks Hockey League">
 
-    <link rel="shortcut icon" href="assets/Logo-Mighty-ducks-01.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="Styles_1.css"> -->
-    <link rel="stylesheet" href="Styles_2.css">
-    <!-- <link rel="stylesheet" href="Styles_propuesto.css"> -->
+        <link rel="shortcut icon" href="assets/Logo-Mighty-ducks-01.png" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="Styles_1.css"> -->
+        <!-- <link rel="stylesheet" href="Styles_2.css"> -->
+        <link rel="stylesheet" href="Styles_propuesto.css"> 
+        
+        <!-- Para el estilo propuesto pensé en un solo index.html que contenga todas las secciones + footer-->
 
-    <title>MDHL Home Page</title>
+        <title>MDHL Home Page</title>
+    </head>
 
-</head>
-
-<body>
-    <header>
-        <div class="titulo">
-            <h1>Mighty Ducks Hockey League</h1>
-        </div>
-        <div>
-            <h2>
-                <strong>Upcoming Events</strong>
-            </h2>
-        </div>
-        <div>
-            <figure>
-                <img class="logo" src="assets/Logo-Mighty-ducks-01.png" alt="league-logo">
-            </figure>
-        </div>
-    </header>
-    <nav>
-        <div class="nav-menu">
-            <a class="btn" id="home" href="index.html">Home</a>
-            <a class="btn" href="about.html">About <span id="ocultar"> MDHL </span> </a>
-            <a class="btn" href="contact.html">Contact</a>
-        </div>
-    </nav>
-    <main>
-        <section>
-            <div class="section-content">
-
-                    <p class="strong-txt"><em><strong>August 4</strong></em></p>
-                    <p class="simple-txt">MDSL Fundraiser</p>
-
-                    <p class="strong-txt"><em><strong>August 16</strong></em></p>
-                    <p class="simple-txt">Season Kick-off: Meet the Teams</p>
-
-                    <p class="strong-txt"><em><strong>September 1</strong></em></p>
-                    <p class="simple-txt">First Game of the Season (Check Game Schedule for details)</p>
+    <body>
+        <header class="no-propuesto">
+            <div class="titulo">
+                <h1>Mighty Ducks Hockey League</h1>
             </div>
-        </section>
-    </main>
-</body>
-</html>
+            <div>
+                <h2>
+                    <strong>Upcoming Events</strong>
+                </h2>
+            </div>
+            <div>
+                <figure>
+                    <img class="logo" src="assets/Logo-Mighty-ducks-01.png" alt="league-logo">
+                </figure>
+            </div>
+        </header>
+        <nav class="no-propuesto">
+            <div class="nav-menu">
+                <a class="btn" id="home" href="index.html">Home</a>
+                <a class="btn" href="about.html">About <span id="ocultar"> MDHL </span> </a>
+                <a class="btn" href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <main class="no-propuesto">
+            <section>
+                <div class="section-content">
 
-<!-- Fin de tarea -->
+                        <p class="strong-txt"><em><strong>August 4</strong></em></p>
+                        <p class="simple-txt">MDSL Fundraiser</p>
+
+                        <p class="strong-txt"><em><strong>August 16</strong></em></p>
+                        <p class="simple-txt">Season Kick-off: Meet the Teams</p>
+
+                        <p class="strong-txt"><em><strong>September 1</strong></em></p>
+                        <p class="simple-txt">First Game of the Season (Check Game Schedule for details)</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html> 
+
+<!-- Aqui comienza el Index.html para el Styles_propuesto -->
+
+    <body>
+        <header class="propuesto">
+            <div class="titulo">
+                <h1>Mighty Ducks Hockey League</h1>
+            </div>
+        </header>
+
+        <nav class="propuesto">
+            <div class="nav-menu">
+                <a class="btn" href="#inicio">Home</a>
+                <a class="btn" href="#about">About <span id="ocultar"> MDHL </span> </a>
+                <a class="btn" href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <main class="propuesto">
+            <section>
+
+                <div>
+                    <h2>
+                        <strong id="inicio">Upcoming Events</strong>
+                    </h2>
+                </div>
+
+                <div class="section-content">
+
+                        <p class="strong-txt"><em><strong>August 4</strong></em></p>
+                        <p class="simple-txt">MDSL Fundraiser</p>
+
+                        <p class="strong-txt"><em><strong>August 16</strong></em></p>
+                        <p class="simple-txt">Season Kick-off: Meet the Teams</p>
+
+                        <p class="strong-txt"><em><strong>September 1</strong></em></p>
+                        <p class="simple-txt">First Game of the Season (Check Game Schedule for details)</p>
+                </div>
+            </section>
+        
+            <section>
+                <div>
+                    <div>
+                        <h2>
+                            <strong id="about">About MDHL</strong>
+                        </h2>
+                    </div>
+                    <div class="section-content">
+                        <p class="strong-txt"><em><strong>Mision</strong></em></p>
+
+                        <p class="simple-txt">To support young athletes living Chicago's northside neighborhood, who have an interest in
+                        learning and playing soccer, with opportunities to learn and practice skills related to the game of
+                        hockey, specifically those skills around team cooperation and good sportsmanship</p>
+
+                        <p class="strong-txt"><em><strong>Vision</strong></em></p>
+
+                        <p class="simple-txt">The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful athletes
+                        through the building of character, self-discipline, and leadership.</p>
+
+                        <p class="strong-txt"><em><strong>General Information</strong></em></p>
+
+                        <p class="simple-txt">The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
+                        Chicago's northside neighborhoods an environment in which to learn and play hockey. To be a
+                        member of MDHL, you must be between the ages of 4 - 12 and reside a Chicago northside
+                        neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of
+                        parents and previous league members</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div>
+                        <h2>
+                            <strong id="contact">Contact</strong>
+                        </h2>
+                    </div>
+                    <div id="contact-text">
+                        <p>Please email us at <a href="mdhl@chihockey.org">mdhl@chihockey.org</a>.</p>
+                        <p>We reply to your email as soon as we can.</p>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="propuesto">
+                <div class="footer-info">
+                    <figure>
+                        <a href="index.html"><img class="logo" src="assets/Logo-Mighty-ducks-01.png" alt="league-logo"></a>
+                    </figure>
+                </div>
+            </footer>
+    </body>
+</html> 

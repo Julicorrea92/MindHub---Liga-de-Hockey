@@ -7,6 +7,9 @@ body{
     font-family: 'Comic Sans MS', Tahoma, sans-serif;
 }
 
+.propuesto{
+    display: none;
+}
 .titulo{
     margin-top: 3px;
     height: 550px;

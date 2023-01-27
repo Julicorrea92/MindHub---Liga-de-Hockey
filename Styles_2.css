@@ -7,6 +7,10 @@ body{
     font-family: 'Comic Sans MS', Tahoma, sans-serif;
 }
 
+.propuesto{
+    display: none;
+}
+
 .titulo{
     margin-top: 15px;
     height: 400px;
@@ -33,7 +37,6 @@ header h2{
 .logo{
     width: 150px;
     position: absolute;
-
 }
 
 nav{
