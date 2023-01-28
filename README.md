@@ -1,5 +1,1 @@
-# MindHub---Liga-de-Hockey
-Repositorio público donde van a encontrar el trayecto del Bootcamp de MindHub en el programa Argentina Programa 4.0
-
-En la rama main se van a ir actualizando los desarrollos del proyecto y en las ramas de Task quedarán registrados los
-procesos de cada tema que se vaya incorporando.
+Rama Task_2: A los HTML de Task_1 se le incorporaron estilos. Styles 1 y 2 correspondientes al mail del comitente y Styles_propuesto es de armado libre.
