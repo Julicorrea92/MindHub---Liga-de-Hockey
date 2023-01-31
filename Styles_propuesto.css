@@ -21,13 +21,22 @@ body{
     border-radius: 10px;
 }
 
+.titulo-reducido{
+    margin-top: 3px;
+    height: 170px;
+    width: 100%;
+    background-image: url('assets/design1_image1.jpg');
+    background-size:auto;
+    border-radius: 10px;
+}
+
 
 h1{
-
-    font-size:75px;
+    display: flex;
+    font-size:65px;
     font-weight: 100;
     color: #F8E12e;
-    text-align: center;
+    justify-content: center;
 }
 
 h2{
@@ -39,17 +48,25 @@ h2{
     text-align: center;
 }
 
+h3{
+    display: block;
+    font-weight: lighter;
+    margin: 20px 20px;
+
+}
+
 .logo{
     width: 150px;
 }
 
-nav{
-    display: block;
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 10px 0;
-    padding: 20px 0;
+    padding: 5px 0;
     border: solid;
     background-color: #5FA199;
-    text-align: center;
     border-radius: 10px;
     
 }
@@ -59,7 +76,7 @@ nav{
     background-color: #F8E12E;
     color: #211915;
     padding: 10px 20px;
-    margin: 0 40px;
+    margin: 0 10px;
     text-decoration: none;
     font-weight:bold;
     border-radius: 7px;
@@ -67,6 +84,12 @@ nav{
 
 #ocultar{
     display: none;
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
 }
 
 
@@ -88,5 +111,7 @@ nav{
 } 
 
 .footer-info{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
