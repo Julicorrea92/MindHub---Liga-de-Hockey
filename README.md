@@ -1,1 +1,1 @@
-Rama Task_2: A los HTML de Task_1 se le incorporaron estilos. Styles 1 y 2 correspondientes al mail del comitente y Styles_propuesto es de armado libre.
+Rama Task_3: Se continúa el HTML base con el estilo propuesto. Se incorpora flexbox en CSS y listas, tablas, mapas y formularios en HTML.
