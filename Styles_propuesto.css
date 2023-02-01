@@ -8,8 +8,6 @@ body{
     background-color: #ffffff;
 }
 
-
-
 .titulo{
     margin-top: 3px;
     height: 610px;
@@ -45,12 +43,6 @@ h1{
     color: white;
     padding: 10px 0;
     text-align: center;
-}
-
-
-.subt{
-    font-size: 16px;
-    margin: 10px 25px;
 }
 
 h3{
@@ -96,7 +88,6 @@ h3{
     margin: 20px 0;
 }
 
-
 #contact-text{
     display: block;
     font-size: 18px;
@@ -104,6 +95,11 @@ h3{
     padding: 10px;
 }
 
+.subt{
+    font-size: 18px;
+    margin: 30px 25px;
+    
+}
 .strong-txt{
     padding: 12px 10px;
     margin-left: 20px;
@@ -115,8 +111,16 @@ h3{
     text-indent: 40px;
 } 
 
+.parrafo{
+    display: inline-block;
+    margin: 10px 25px;
+    text-indent: 40px;
+    font-size: 15px;
+}
+
 ol{
     margin-left: 40px;
+    font-size: 15px;
 }
 
 li{
@@ -125,10 +129,35 @@ li{
 
 .lista-des{
     margin: 15px 30px;
+    font-size: 15px;
+}
+
+th{
+    padding: 5px 20px;
+    margin: 5px;
+    border: 1px solid;   
+}
+
+td{
+    padding: 5px 20px;
+    margin: 5px;
+    border: 1px solid;
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.centrar-fecha{
+    text-align: center;
 }
 
 .footer-info{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 75px;
 }
