@@ -64,6 +64,7 @@ h3{
     border: solid;
     background-color: #5FA199;
     border-radius: 10px;
+    flex-wrap: wrap;
     
 }
 
@@ -130,6 +131,7 @@ li{
 .lista-des{
     margin: 15px 30px;
     font-size: 15px;
+    list-style-type: circle;
 }
 
 th{
@@ -144,11 +146,10 @@ td{
     border: 1px solid;
 }
 
-table{
+.tabla{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 20px;
 }
 
 .centrar-fecha{
