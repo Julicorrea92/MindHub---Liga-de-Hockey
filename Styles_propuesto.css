@@ -190,13 +190,6 @@ select{
     margin: 20px 8px;
 }
 
-.ayuda{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: end;
-}
-
 .location{
     margin: 10px 20px;
     display:flex;
@@ -213,3 +206,4 @@ select{
     flex-direction: column;
     flex-wrap: wrap;
 } */
+
