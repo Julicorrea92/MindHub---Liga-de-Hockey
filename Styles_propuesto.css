@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Tahoma', sans-serif;
+    /* font-family: 'Tahoma', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     background-color: #eeeee9;
 }
 
@@ -154,7 +155,7 @@ td{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 100px;
 }
 
 fieldset{
@@ -171,15 +172,44 @@ label{
 }
 
 input{
-    margin: 5px 1px;
+    margin: 15px 1px;
 }
 
 #btn-enviar{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-#submit{
+#submit, #reset{
     padding: 8px 20px;
 }
+
+
+select{
+    margin: 20px 8px;
+}
+
+.ayuda{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+.location{
+    margin: 10px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location iframe{
+    margin: 10px 0;
+}
+
+/* .contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */

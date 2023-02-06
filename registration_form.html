@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration MDHL</title>
+    
+    <link rel="shortcut icon" href="assets/Logo-Mighty-ducks-01.png" type="image/x-icon">
     <!-- <link rel="stylesheet" href="Styles_1.css"> -->
     <!-- <link rel="stylesheet" href="Styles_2.css"> -->
     <link rel="stylesheet" href="Styles_propuesto.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Registration MDHL</title>
+
 </head>
     <body>
         <header class="propuesto">
@@ -23,6 +31,7 @@
                 <a class="btn" href="game_info.html">Game Info</a>
                 <a class="btn" href="rules.html">Rules</a>
                 <a class="btn" href="#">Registration MDHL</a>
+                <a class="btn" href="school_locations.html">Locations</a>
                 <a class="btn" href="contact.html">Contact</a>
             </div>
         </nav>
@@ -84,33 +93,26 @@
                     <label for="5th">5th</label>
                     <input type="checkbox" id="5th" name="5th" value="Yes">       
                 </fieldset>
-                    
 
-                    
-                <h3><strong>Which elementary school do you live near?</strong></h3>
-                
-                    
                 <fieldset>
                     <legend>
-                        <h4>Closest school</h4>
+                        <h4><strong>Which elementary school do you live near?</strong></h4>
                     </legend>
-                        <label for="aj-katz">AJ Katzenmaier</label>
-                        <input type="radio" id="aj-katz" name="Closest-school" value="AJ Katzenmaier" required>
 
-                        <label for="greenbay">Greenbay</label>
-                        <input type="radio" id="greenbay" name="Closest-school" value="Greenbay" required>
+                    <select name="Closest-school" id="school" required>
+                        <option value="" disabled selected>- Please choose a Closest School -</option>
+                        <option value="AJ Katzenmaier" >AJ Katzenmaier</option>
+                        <option value="Greenbay" >Greenbay</option>
+                        <option value="Howard A Yeager" >Howard A Yeager</option>
+                        <option value="Marjorie P Hart" >Marjorie P Hart</option>
+                        <option value="North Elementary" >North Elementary</option>
+                        <option value="South Elementary" >South Elementary</option>
+                    </select>
 
-                        <label for="how-a-ye">Howard A Yeager</label>
-                        <input type="radio" id="how-a-ye" name="Closest-school" value="Howard A Yeager" required>
+                    <div class="ayuda">
+                        <p class="simple-txt"><strong>If you need help finding the nearest school click on locations</strong> </p>
+                    </div>
 
-                        <label for="mar-p-hart">Marjorie P Hart</label>
-                        <input type="radio" id="mar-p-hart" name="Closest-school" value="Marjorie P Hart" required>
-
-                        <label for="n-elementary">North Elementary</label>
-                        <input type="radio" id="n-elementary" name="Closest-school" value="North Elementary" required>
-
-                        <label for="s-elementary">South Elementary</label>
-                        <input type="radio" id="s-elementary" name="Closest-school" value="South Elementary" required>
                 </fieldset>
                         
                 <fieldset>
@@ -164,13 +166,13 @@
                     <legend><h4><strong>Permission to play</strong></h4></legend>
 
                     <p class="simple-txt">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant participation in the program and/or being transported to or from MDHL sponsored activities which transportation.
-                    By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I read the cancellation policy and agree to its terms.
+                    <br><br> By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I read the cancellation policy and agree to its terms.
                     </p>
                     
                     <label for="signature">Parent/Guardian Signature</label>
                     
                     <select name="Signature" id="signature" required>
-                        <option value="" disabled selected>-Please choose an option-</option>
+                        <option value="" disabled selected>- Please choose an option -</option>
                         <option value="Parent">Parent</option>
                         <option value="Guardian">Guardian</option>
                     </select>
@@ -183,10 +185,16 @@
                 
                 <div id="btn-enviar">
                     <input type="submit" value="Submit registration" id="submit">
-                </div>
-                
+                    <input type="reset" value="Clean form" id="reset">
+                </div> 
             </form>
         </main>
-
+        <footer class="propuesto">
+            <div class="footer-info">
+                <figure>
+                    <a href="index.html"><img class="logo" src="assets/Logo-Mighty-ducks-01.png" alt="league-logo"></a>
+                </figure>
+            </div>
+        </footer>
     </body>
 </html>
