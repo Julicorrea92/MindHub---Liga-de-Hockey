@@ -36,7 +36,7 @@
         </nav>
 
         <main class="propuesto">
-            <form action="/show_data.html" method="get">
+            <form action="show_data.html" method="get">
                 
                 <h2 class="separador">
                     Registration Form
@@ -75,22 +75,22 @@
                     <label>Grade:</label>
                     
                     <label for="pre-school">Pre-School</label>
-                    <input type="checkbox" id="pre-school" name="Pre-school" value="Pre-School" required>
+                    <input type="checkbox" id="pre-school" name="Pre-school" value="Ok" required>
 
                     <label for="1st">1st</label>
-                    <input type="checkbox" id="1st" name="1st" value="Yes">
+                    <input type="checkbox" id="1st" name="1st" value="Ok">
 
                     <label for="2nd">2nd</label>
-                    <input type="checkbox" id="2nd" name="2nd" value="Yes">
+                    <input type="checkbox" id="2nd" name="2nd" value="Ok">
 
                     <label for="3rd">3rd</label>
-                    <input type="checkbox" id="3rd" name="3rd" value="Yes">
+                    <input type="checkbox" id="3rd" name="3rd" value="Ok">
 
                     <label for="4th">4th</label>
-                    <input type="checkbox" id="4th" name="4th" value="Yes">
+                    <input type="checkbox" id="4th" name="4th" value="Ok">
 
                     <label for="5th">5th</label>
-                    <input type="checkbox" id="5th" name="5th" value="Yes">       
+                    <input type="checkbox" id="5th" name="5th" value="Ok">       
                 </fieldset>
 
                 <fieldset>
@@ -132,27 +132,19 @@
                     <legend>
                         <h4><strong>Uniform size</strong></h4>
                     </legend>
-                    
-                    <label for="youth-small">Youth small</label>
-                    <input type="radio" id="youth-small" name="Uniform" value="Youth small">
-                    
-                    <label for="youth-medium">Youth medium</label>
-                    <input type="radio" id="youth-medium" name="Uniform" value="Youth medium"> 
-                    
-                    <label for="youth-large">Youth Large</label>
-                    <input type="radio" id="youth-large" name="Uniform" value="Youth Large">
 
-                    <label for="small">Small</label>
-                    <input type="radio" id="small" name="Uniform" value="Small">
+                    <select name="Uniform" id="uniform">
 
-                    <label for="medium">Medium</label>
-                    <input type="radio" id="medium" name="Uniform" value="Medium">
-
-                    <label for="large">Large</label>
-                    <input type="radio" id="large" name="Uniform" value="Large">
+                    <option value="" disabled selected>- Please choose an option -</option>
+                    <option value="Youth small">Youth small</option>
+                    <option value="Youth medium">Youth medium</option>
+                    <option value="Youth Large">Youth Large</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="Extra Large">Extra Large</option>
                     
-                    <label for="extra-large">Extra-large</label>
-                    <input type="radio" id="extra-large" name="Uniform" value="Extra large">
+                    </select>
                 </fieldset>  
                     
                 <fieldset>
@@ -170,8 +162,9 @@
                         <option value="Guardian">Guardian</option>
                     </select>
 
-                    <label for="email"></label>
-                    <input type="email" id="email" name="Email" placeholder="Please enter an email" required>
+                    <label for="name-lastname"></label>
+                    <input type="text" id="name-lastname" name="Name-Lastname" placeholder="Name and last name" required>
+                    
                     <label for="sign-date">Date</label>
                     <input type="date" id="sign-date" name="Sign-date" required>
                 </fieldset>

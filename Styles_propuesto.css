@@ -18,6 +18,14 @@ body{
     border-radius: 10px;
 }
 
+h1{
+    display: flex;
+    font-size:65px;
+    font-weight: 100;
+    color: #F8E12e;
+    justify-content: center;
+}
+
 
 .titulo-reducido{
     margin-top: 3px;
@@ -26,15 +34,6 @@ body{
     background-image: url('assets/design1_image1.jpg');
     background-size:auto;
     border-radius: 10px;
-}
-
-
-h1{
-    display: flex;
-    font-size:65px;
-    font-weight: 100;
-    color: #F8E12e;
-    justify-content: center;
 }
 
 .separador{
@@ -65,8 +64,7 @@ h3{
     border: solid;
     background-color: #5FA199;
     border-radius: 10px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .btn{
